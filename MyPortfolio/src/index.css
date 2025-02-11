@@ -1,9 +1,12 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 html{
   scroll-behavior: smooth;
 }
 
 body{
-  @apply bg-zinc-900 text-zinc-50 h-[200vh]
+  @apply bg-zinc-900 text-zinc-50
 }
