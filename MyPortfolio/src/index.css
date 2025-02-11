@@ -1,12 +1,28 @@
 @import "tailwindcss";
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
-  @apply bg-zinc-900 text-zinc-50
+body {
+  background-color: #18181b; /* Equivalent to bg-zinc-900 */
+  color: #f4f4f5; /* Equivalent to text-zinc-50 */
+}
+
+.menu-btn {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgba(244, 244, 245, 0.1);
+  border-radius: 0.75rem; 
+  box-shadow: inset 0 0 0 1px rgba(244, 244, 245, 0.02);
+  backdrop-filter: blur(2xl);
+  transition: transform 0.2s, background-color 0.2s;
+}
+.menu-btn:hover {
+  background-color: rgba(244, 244, 245, 0.15);
+}
+.menu-btn:active {
+  transform: scale(0.95); 
 }
