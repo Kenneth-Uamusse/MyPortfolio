@@ -27,14 +27,24 @@ const About = () => {
             {aboutItems.map(({ label, number }, key) => (
               <div key={key}>
                 <div className="flex items-center md:mb-2">
-                  <span className="text-2xl font-semibold md:text-4xl">{number}</span>
-                  <span className="text-sky-400 font-semibold md:text-3xl">+</span>
+                  <span className="text-2xl font-semibold md:text-4xl">
+                    {number}
+                  </span>
+                  <span className="text-sky-400 font-semibold md:text-3xl">
+                    +
+                  </span>
                 </div>
                 <p className="text-sm text-zinc-400">{label}</p>
               </div>
             ))}
 
-            <img src={logo} alt="Logo" width={30} height={30} className="ml-auto md:w-[40px] md:h-[40px]" />
+            <img
+              src={logo}
+              alt="Logo"
+              width={30}
+              height={30}
+              className="ml-auto md:w-[40px] md:h-[40px]"
+            />
           </div>
         </div>
       </div>
