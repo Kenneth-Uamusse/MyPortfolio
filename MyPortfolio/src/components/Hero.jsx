@@ -1,5 +1,5 @@
 import my_photo from "../../public/images/my_photo.jpg";
-import avatar_1 from "../../public/images/avatar_1.jpg";
+import { ButtonPrimary, ButtonOutline } from "./Button";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
-                src={avatar_1}
+                src={my_photo}
                 alt="Kenneth portrait"
                 width={40}
                 height={40}
@@ -24,9 +24,18 @@ const Hero = () => {
             </div>
           </div>
 
-          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch]mt-5 mb-8 lg:mb-10">Building Scalable Modern Websites for the Future</h2>
+          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch]mt-5 mb-8 lg:mb-10">
+            Building Scalable Modern Websites for the Future
+          </h2>
 
-          <div className="flex items-center gap-3">ButtonPrimary ButtonOutline</div>
+          <div className="flex items-center gap-3">
+            <ButtonPrimary label="Download CV" icon="download" />{" "}
+            <ButtonOutline
+              href="#about"
+              label="Scroll down"
+              icon="arrow_downward"
+            />
+          </div>
         </div>
 
         <div className="hidden lg:block">
