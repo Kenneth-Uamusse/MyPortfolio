@@ -27,7 +27,7 @@ const works = [
   },
   {
     imgSrc: "/images/project-5.jpg",
-    title: "eCommerce website",
+    title: "ECM website",
     tags: ["eCommerce", "Development"],
     projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
   },
