@@ -135,28 +135,27 @@ const Contact = () => {
                 placeholder="kenneth@example.com"
               />
             </div>
-
-            <div className="mb-4 md:col-span-2">
-              <label htmlFor="message" className="label">
-                Message
-              </label>
-              <textarea
-                name="message"
-                id="message"
-                className="text-field resize-y min-h-32 max-h-80"
-                placeholder="Hi!"
-              ></textarea>
-            </div>
-
-            <div className="md:col-span-2">
-              <button
-                type="submit"
-                className="btn btn-primary w-full justify-center"
-              >
-                Submit
-              </button>
-            </div>
           </div>
+
+          <div className="mb-4">
+            <label htmlFor="message" className="label">
+              Message
+            </label>
+            <textarea
+              name="message"
+              id="message"
+              className="text-field resize-y min-h-32 max-h-80"
+              placeholder="Hi!"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            className="btn btn-primary [&]:max-w-full w-full justify-center"
+          >
+            Submit
+          </button>
+
         </form>
       </div>
     </section>
