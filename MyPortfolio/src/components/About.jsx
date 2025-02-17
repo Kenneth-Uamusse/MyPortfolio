@@ -1,15 +1,5 @@
 import logo from "../../public/images/logo.svg";
-
-const aboutItems = [
-  {
-    label: "Projectos feitos",
-    number: 7,
-  },
-  {
-    label: "Anos de experiência",
-    number: 2,
-  },
-];
+import { aboutItems } from "../utils/aboutUtil";
 
 const About = () => {
   return (
@@ -17,7 +7,11 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-uo">
           <p className="text-zinc-300 mb:4 md:mb-8 md:text-xl md:max-w-[60ch] text-justify">
-            Welcome! Sou Kenneth Uamusse, desenvolvedor e confundador de uma startup focada em soluções tecnológicas inovadoras, transformando ideias em experiências digitais impactantes, combinando design, funcionalidade e desempenho para criar aplicações que fazem a diferença.
+            Welcome! Sou Kenneth Uamusse, desenvolvedor e confundador de uma
+            startup focada em soluções tecnológicas inovadoras, transformando
+            ideias em experiências digitais impactantes, combinando design,
+            funcionalidade e desempenho para criar aplicações que fazem a
+            diferença.
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {aboutItems.map(({ label, number }, key) => (
