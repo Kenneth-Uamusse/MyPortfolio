@@ -27,24 +27,18 @@ const sitemap = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/Kenneth-Uamusse",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "https://www.linkedin.com/in/kenneth-uamusse-a281a4254/",
   },
-  {
-    label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
-  },
+  
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/und3fined__xx/",
   },
-  {
-    label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
-  },
+  
 ];
 
 const Footer = () => {

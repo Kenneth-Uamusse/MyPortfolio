@@ -20,12 +20,12 @@ const Hero = () => {
               <span className="relative w-2 h-2 rounded-full bg-emerald-400">
                 <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
               </span>
-              Available for work
+              Ikarus Tech
             </div>
           </div>
 
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch]mt-5 mb-8 lg:mb-10">
-            Building Scalable Modern Websites for the Future
+            Inovando o futuro Byte a Byte
           </h2>
 
           <div className="flex items-center gap-3">
