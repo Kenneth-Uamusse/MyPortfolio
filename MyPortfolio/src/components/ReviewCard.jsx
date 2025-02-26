@@ -8,7 +8,11 @@ const ReviewCard = ({ content, imgSrc, name, company }) => {
     <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-[420px]">
       <div className="flex items-center gao-1 mb-3">
         {ratings.map(({ icon, style }, key) => (
-          <span key={key} className="material-symbols-rounded text-yellow-300 text-[18px]" style={style}>
+          <span
+            key={key}
+            className="material-symbols-rounded text-yellow-300 text-[18px]"
+            style={style}
+          >
             {icon}
           </span>
         ))}

@@ -1,38 +1,44 @@
 export const works = [
   {
-    imgSrc: "/images/project-1.jpg",
-    title: "Full stack music app",
-    tags: ["API", "MVC", "Development"],
-    projectLink: "https://musify-5al0.onrender.com/",
+    imgSrc: "/images/bapp.png",
+    title: "Full stack hotel booking app",
+    tags: ["API", "Development"],
+    projectLink:
+      "https://github.com/Kenneth-Uamusse/FrontEndProjects/tree/master/Hotel-Managment",
   },
   {
-    imgSrc: "/images/project-2.jpg",
-    title: "Free stock photo app",
+    imgSrc: "/images/kbapp.webp",
+    title: "Kanban Project",
     tags: ["API", "SPA"],
-    projectLink: "https://pixstock-official.vercel.app/",
+    projectLink:
+      "https://github.com/Kenneth-Uamusse/FrontEndProjects/tree/master/Kanban-Project",
   },
   {
-    imgSrc: "/images/project-3.jpg",
-    title: "Recipe app",
-    tags: ["Development", "API"],
-    projectLink: "",
+    imgSrc: "/images/vmapp.jpg",
+    title: "Vacancy Management System",
+    tags: ["API", "UI"],
+    projectLink:
+      "https://github.com/Kenneth-Uamusse/FrontEndProjects/tree/master/Vacancy-Managment",
   },
   {
-    imgSrc: "/images/project-4.jpg",
-    title: "Real state website",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee-org/wealthome",
+    imgSrc: "/images/smapp.webp",
+    title: "Stock Managment",
+    tags: ["API", "MVC"],
+    projectLink:
+      "https://github.com/Kenneth-Uamusse/BackEndProjects/tree/master/Stock-Managment",
   },
   {
     imgSrc: "/images/project-5.jpg",
     title: "ECM website",
-    tags: ["eCommerce", "Development"],
-    projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
+    tags: ["eCommerce", "API"],
+    projectLink:
+      "https://github.com/Kenneth-Uamusse/BackEndProjects/tree/master/E-commerce",
   },
   {
-    imgSrc: "/images/project-6.jpg",
-    title: "vCard Personal portfolio",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
+    imgSrc: "/images/stapp.webp",
+    title: "Subscription Tracker",
+    tags: ["API", "MVC"],
+    projectLink:
+      "https://github.com/Kenneth-Uamusse/BackEndProjects/tree/master/Subscription-Tracker",
   },
 ];
