@@ -7,28 +7,25 @@ export const works = [
       "https://github.com/Kenneth-Uamusse/FrontEndProjects/tree/master/Hotel-Managment",
   },
   {
-    imgSrc: "/images/kbapp.webp",
-    title: "Kanban Project",
-    tags: ["API", "SPA"],
+    imgSrc: "/images/iks.png",
+    title: "Ikarus Tech",
+    tags: ["UI", "UX"],
     projectLink:
-      "https://github.com/Kenneth-Uamusse/FrontEndProjects/tree/master/Kanban-Project",
+      "https://ikarustech.co.mz/",
   },
   {
-    imgSrc: "/images/vmapp.jpg",
-    title: "Vacancy Management System",
+    imgSrc: "/images/sigm.png",
+    title: "Microcredit Managment",
     tags: ["API", "UI"],
-    projectLink:
-      "https://github.com/Kenneth-Uamusse/FrontEndProjects/tree/master/Vacancy-Managment",
+    
   },
   {
-    imgSrc: "/images/smapp.webp",
-    title: "Stock Managment",
-    tags: ["API", "MVC"],
-    projectLink:
-      "https://github.com/Kenneth-Uamusse/BackEndProjects/tree/master/Stock-Managment",
+    imgSrc: "/images/play4me.png",
+    title: "TunePick",
+    tags: ["API", "Development"],
   },
   {
-    imgSrc: "/images/project-5.jpg",
+    imgSrc: "/images/ecm.png",
     title: "ECM website",
     tags: ["eCommerce", "API"],
     projectLink:
