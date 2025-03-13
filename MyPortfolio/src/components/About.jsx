@@ -1,4 +1,4 @@
-import logo from "../../public/images/logo.svg";
+import logo from "../assets/logo.svg";	
 import { aboutItems } from "../utils/aboutUtil";
 
 const About = () => {

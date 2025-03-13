@@ -1,4 +1,4 @@
-import my_photo from "../../public/images/my_photo.jpg";
+import my_photo from "../assets/my_photo.jpg";
 import { ButtonPrimary, ButtonOutline } from "./Button";
 
 const Hero = () => {

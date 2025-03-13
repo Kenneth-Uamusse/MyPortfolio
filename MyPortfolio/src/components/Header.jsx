@@ -1,4 +1,4 @@
-import logo from "../../public/images/logo.svg";
+import logo from "../assets/logo.svg";	
 import Navbar from "./Navbar";
 import { useState } from "react";
 

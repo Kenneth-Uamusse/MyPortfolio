@@ -1,5 +1,5 @@
 import { ButtonPrimary } from "./Button.jsx";
-import logo from "../../public/images/logo.svg";
+import logo from "../assets/logo.svg";	
 import { sitemap, socials } from "../utils/footerUtil.jsx";
 
 const Footer = () => {
